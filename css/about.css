@@ -7,7 +7,7 @@
   background-size: cover;
   background-position: center;
   border-radius: 25px;
-  margin: auto 0;
+  margin: 0 auto;
 }
 
 section {
@@ -61,7 +61,7 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  justify-self: center;
+  justify-content: center;
 }
 
 .list .firstList ul li {
@@ -81,6 +81,9 @@ ul {
   padding-top: 10px;
   margin: 10px 0;
   border-top: 2px solid #d4d4d4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .buttonContainer {
