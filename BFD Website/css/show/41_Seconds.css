@@ -1,0 +1,222 @@
+/** Header Image **/
+
+.headerImg {
+  justify-self: center;
+  max-width: 1350px;
+  width: 90%;
+  height: 600px;
+  background-image: url(../../img/show/forthyOneSeconds/41_Seconds_Banner.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+}
+
+/** Sections Styling **/
+
+section {
+  max-width: 1350px;
+  width: 90%;
+  background-color: white;
+  margin: 20px auto;
+  border-radius: 25px;
+}
+
+/** First Section Style **/
+
+.firstSection {
+  display: grid;
+  grid-template-columns: auto 2fr auto;
+  align-items: center;
+}
+
+.basicInfo {
+  padding: 25px;
+}
+
+.basicInfo p {
+  display: inline-block;
+  font-size: 18px;
+  padding-right: 25px;
+  color: #0b1f33;
+}
+
+.icon {
+  font-size: 20px;
+  vertical-align: middle;
+  color: #0b1f33;
+  padding-right: 5px;
+}
+
+.spaceMaker {
+  display: inline-block;
+  width: 25px;
+}
+
+/** Second Section Style **/
+
+.music {
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.music p {
+  color: #4a7ba7;
+}
+
+.link {
+  text-decoration: none;
+  color: #0b1f33;
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 700;
+  padding-bottom: 10px;
+  color: #0b1f33;
+}
+
+li {
+  color: #4a7ba7;
+}
+
+.showDescription {
+  width: 80%;
+  font-size: 15px;
+}
+
+.playShow {
+  display: grid;
+  grid-template-rows: auto auto auto 1fr;
+}
+
+.button {
+  margin: 20px 0;
+}
+
+.licensing {
+  padding-bottom: 10px;
+}
+
+/* Third Section */
+
+.pricing h2 {
+  padding-bottom: 25px;
+  font-size: 35px;
+  color: #0b1f33;
+  font-weight: 700;
+}
+
+.pricing {
+  padding: 25px;
+  display: grid;
+  grid-template-rows: auto auto;
+  text-align: center;
+}
+
+.packages {
+  display: grid;
+  grid-template-columns: 1fr 450px 450px 1fr;
+  gap: 40px;
+}
+
+.performance {
+  border: 10px solid #4a7ba7;
+  height: 80vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.performance h2 {
+  font-size: 25px;
+  padding: 20px;
+  color: white;
+  background-color: #4a7ba7;
+}
+
+.performance h4 {
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+  background-color: #4a7ba7;
+}
+
+.performance ul {
+  text-align: left;
+  list-style: none;
+}
+
+.performance li {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.packageIcon {
+  font-size: 20px;
+  vertical-align: middle;
+  color: #0b1f33;
+  padding-right: 5px;
+}
+
+.competitive {
+  border: 10px solid #0b1f33;
+  height: 80vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.competitive h2 {
+  font-size: 25px;
+  padding: 20px;
+  color: white;
+  background-color: #0b1f33;
+}
+
+.packageContent {
+  padding: 25px;
+}
+
+.competitive h4 {
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+  background-color: #0b1f33;
+}
+
+.example {
+  width: 100%;
+  height: 85px;
+  grid-template-columns: auto auto 55px auto auto 40px;
+}
+
+.competitiveContent {
+  display: grid;
+  grid-row: 1fr auto;
+}
+
+.competitiveContent h5 {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.competitive h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.competitive ul {
+  text-align: left;
+  list-style: none;
+}
+
+.competitive li {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.competitiveIcon {
+  font-size: 25px;
+  vertical-align: middle;
+  color: #0b1f33;
+  padding-right: 5px;
+}

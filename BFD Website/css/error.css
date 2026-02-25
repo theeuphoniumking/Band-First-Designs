@@ -1,0 +1,25 @@
+.headerImg {
+  justify-self: center;
+  max-width: 1350px;
+  width: 90%;
+  height: 500px;
+  background-image: url(../img/BFD_Website_Banner.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+}
+
+section {
+  max-width: 1350px;
+  width: 90%;
+  background-color: white;
+  margin: 20px auto;
+  border-radius: 25px;
+  padding: 25px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
