@@ -1,0 +1,91 @@
+.headerImg {
+  justify-self: center;
+  max-width: 1350px;
+  width: 90%;
+  height: 500px;
+  background-image: url(../img/BFD_Website_Banner.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+
+section {
+  max-width: 1350px;
+  width: 90%;
+  background-color: white;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.content {
+  padding-top: 10px;
+  margin: 10px 0;
+  border-top: 2px solid #d4d4d4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content p {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.growth {
+  width: 65%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 300px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  left: 20px;
+  gap: 10px;
+}
+
+.list .firstList ul li {
+  list-style: none;
+  text-align: left;
+  padding: 0 10px;
+}
+
+.list .secondList ul li {
+  list-style: none;
+  text-align: left;
+}
+
+.title {
+  padding: 10px 0;
+}
+
+.customFirstList {
+  position: relative;
+  left: 5%;
+}
+
+.designFirstList {
+  position: relative;
+  left: 10%;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
